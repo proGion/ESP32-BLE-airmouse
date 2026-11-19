@@ -1,0 +1,52 @@
+** Drc report for airmouse.kicad_pcb **
+** Created on 2026-05-16T15:52:30 **
+** Report includes: Errors, Warnings **
+
+** Found 2 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(81.5000 mm, 78.0000 mm): Đường mạch [Net-(J1-Pin_7)] trên F.Cu, chiều dài 2.0000 mm
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(180.5000 mm, 30.5000 mm): Vùng 'GND_PWR' [<no net>] trên B.Cu, độ ưu tiên 0
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.3100 mm, 58.8100 mm): Đường mạch [Net-(J1-Pin_7)] trên F.Cu, chiều dài 7.1900 mm
+    @(63.5400 mm, 52.4600 mm): Đường mạch [Net-(J1-Pin_7)] trên F.Cu, chiều dài 62.9600 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.3100 mm, 58.8100 mm): Đường mạch [Net-(J1-Pin_7)] trên F.Cu, chiều dài 7.1900 mm
+    @(133.0450 mm, 59.0375 mm): Điểm hàn PTH 39 [Net-(J1-Pin_7)] của U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5400 mm, 70.2200 mm): Điểm hàn 15 [Net-(J1-Pin_7)] của U1 trên F.Cu
+    @(133.0450 mm, 61.3250 mm): Điểm hàn 39 [Net-(J1-Pin_7)] của U1 trên F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.5400 mm, 70.2200 mm): Điểm hàn 15 [Net-(J1-Pin_7)] của U1 trên F.Cu
+    @(142.8800 mm, 92.8800 mm): Đường mạch [Net-(J1-Pin_7)] trên F.Cu, chiều dài 12.3800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0950 mm, 58.2750 mm): Điểm hàn 39 [Net-(J1-Pin_7)] của U1 trên F.Cu
+    @(144.0000 mm, 52.4600 mm): Điểm hàn 38 [Net-(J1-Pin_7)] của U1 trên F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.5000 mm, 53.7300 mm): Điểm hàn 2 [Net-(J1-Pin_8)] của U1 trên F.Cu
+    @(90.0000 mm, 91.0000 mm): Đường mạch [Net-(J1-Pin_8)] trên F.Cu, chiều dài 43.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 60.5000 mm): Điểm hàn PTH 2 [Net-(U1-IO14)] của SW1
+    @(69.0000 mm, 60.5000 mm): Điểm hàn PTH 2 [Net-(U1-IO14)] của SW1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
